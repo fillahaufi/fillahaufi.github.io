@@ -158,6 +158,7 @@ section h2 {
     text-align: center;
     font-size: 38px;
     color: white;
+    z-index: 5;
 }
 .content_about a {
     color: #2196f3;

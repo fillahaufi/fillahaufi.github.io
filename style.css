@@ -459,7 +459,7 @@ footer p {
     }
     .about .content_about .about_left img {
         /* background-position: center; */
-        width: initial;
+        width: unset;
         left: -200px;
     }
     .about .content_about {

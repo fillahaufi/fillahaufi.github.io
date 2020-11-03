@@ -459,7 +459,7 @@ footer p {
     }
     .about .content_about .about_left img {
         /* background-position: center; */
-        width: auto;
+        width: initial;
         left: -200px;
     }
     .about .content_about {
@@ -473,6 +473,58 @@ footer p {
     }
     .experience h2 {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    @media screen and (max-height: 2340px) {
+        #judul {
+            font-size: 10em;
+            line-height: 125px;
+        }
+        #subjudul {
+            font-size: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        section h2 {
+            font-size: 100px;
+        }
+        #skills h2,
+        #contact h2 {
+            font-size: 100px;
+        }
+        .about .content_about .about_right {
+            margin-top: 655px;
+            border-radius: 20px;
+        }
+        .about .content_about .about_right .title_about{
+            font-size: 70px;
+            line-height: 25px;
+            padding-left: 25px;
+            padding-top: 50px;
+        }
+        .about .content_about .about_right p {
+            padding: 30px;
+            font-size: 45px;
+        }
+        .about .content_about .about_left img {
+            /* background-position: center; */
+            width: initial;
+            left: -800px;
+        }
+        .swiper-slide h3 {
+            font-size: 50px;
+        }
+        .experience h2 {
+            transform: translate(-50%, 100px);
+        }
+        .button {
+            font-size: 40px;
+        }
+        footer p {
+            font-size: 30px;
+        }
     }
 }
 

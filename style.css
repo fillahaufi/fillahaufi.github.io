@@ -147,7 +147,7 @@ section {
     padding-top: 50px;
 }
 #cloud {
-    transform: translateX(750px);
+    transform: translate(-250px, -50px);
     /* padding-left: 900px; */
     z-index: 1;
 }
@@ -186,7 +186,7 @@ section h2 {
     height: 100%;
     object-fit: cover;
     pointer-events: none;
-    z-index: 0;
+    z-index: -1;
 }
 .about .content_about .about_right {
     width: 55%;

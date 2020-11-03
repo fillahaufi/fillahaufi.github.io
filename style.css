@@ -476,7 +476,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 1080px) {
+/* @media screen and (max-width: 1080px) {
     @media screen and (max-height: 2340px) {
         #judul {
             font-size: 10em;
@@ -546,7 +546,7 @@ footer p {
             font-size: 30px;
         }
     }
-}
+} */
 
 @media screen and (max-width: 400px) {
     .about .content_about .about_right {

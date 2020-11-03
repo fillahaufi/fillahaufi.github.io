@@ -147,7 +147,8 @@ section {
     padding-top: 50px;
 }
 #cloud {
-    padding-left: 900px;
+    transform: translateX(750px);
+    /* padding-left: 900px; */
     z-index: 1;
 }
 section {
@@ -395,7 +396,7 @@ footer p {
     background: #2196f3;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1080px) {
     nav {
         padding: 0px 0px;
     }
